@@ -41,6 +41,7 @@
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
     --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
     --leading-normal: 1.5;
     --aspect-video: 16 / 9;
     --default-transition-duration: 150ms;
@@ -218,6 +219,15 @@
   }
   .sticky {
     position: sticky;
+  }
+  .right-20 {
+    right: calc(var(--spacing) * 20);
+  }
+  .right-30 {
+    right: calc(var(--spacing) * 30);
+  }
+  .bottom-20 {
+    bottom: calc(var(--spacing) * 20);
   }
   .col-span-1 {
     grid-column: span 1 / span 1;
