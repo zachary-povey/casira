@@ -3,7 +3,11 @@
         {{ range .Site.Data.slide }}
         <div class="swiper-slide relative">
             <img src="{{ .image }}" alt="{{ .alt }}" class="w-full h-full object-cover">
-            <div class="absolute bottom-20 right-20">
+            <div class="absolute                
+                {{ with .top }}top-{{ . }}{{ end }}
+                {{ with .bottom }}bottom-{{ . }}{{ end }}
+                {{ with .left }}left-{{ . }}{{ end }}
+                {{ with .right }}right-{{ . }}{{ end }}">
                 <h1 class="text-4xl {{ or .color "text-white" }}">{{ .title }}</h1>
             </div>
         </div>

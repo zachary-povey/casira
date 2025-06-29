@@ -3,8 +3,8 @@
     "title": "Your gateway to the Costa Tropical",
     "image": "img/slide/slide04.jpg",
     "color": "text-white",
-    "bottom": 20,
-    "right": 20
+    "bottom": "20",
+    "right": "20"
   },
   {
     "title": "Winter like this...",

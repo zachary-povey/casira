@@ -14,4 +14,9 @@ module.exports = {
   },
   variants: {},
   plugins: [require("@tailwindcss/typography")],
+  safelist: [
+  {
+    pattern: /^(top|bottom|left|right)-[0-9]+$/,
+  },
+]
 };

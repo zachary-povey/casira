@@ -3,5 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@source inline("top-{10..100..10}");
+@source inline("bottom-{10..100..10}");
+@source inline("left-{10..100..10}");
+@source inline("right-{10..100..10}");
 @plugin "@tailwindcss/typography";
 
