@@ -1,5 +1,6 @@
 baseURL = "https://casira.es"
-title = "Casira"
+title = ""
+# title = "Casira"
 author = "username"
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -24,12 +25,12 @@ enableRobotsTXT = true
   googleFonts = true
 
   [params.logo]
-    main = "img/logo/logo.svg"
+    main = "img/logo/logo.jpg"
     alt = "Casira Logo"
 
     # The size parameter is the class name of tailwindcss
     # https://tailwindcss.com/
-    size = "h-14"
+    size = "h-25"
 
   [params.site]
     name = "Casira"
