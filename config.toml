@@ -18,69 +18,74 @@ enableRobotsTXT = true
 
 [params]
 
-  showBlog = true
+  showBlog = false
   mainSections = ['blog']
 
   googleFonts = true
 
   [params.logo]
     main = "img/logo/logo.svg"
-    alt = "Tella Logo"
+    alt = "Casira Logo"
 
     # The size parameter is the class name of tailwindcss
     # https://tailwindcss.com/
     size = "h-14"
 
   [params.site]
-    name = "Tella"
+    name = "Casira"
 
   [params.icon]
     #If you want to use FontAwesome, set this parameter to true.
     fontawesome = true
 
   [params.homepage_meta_tags]
-    meta_description = "A Hugo Theme for OSSProject, Companies, Organization..."
-    meta_og_title = "Tella"
+    meta_description = "Casira is a trusted real estate agent in Costa Tropical, Spain. Find your dream property, villa, or apartment for sale or rent in the beautiful Costa Tropical region."
+    meta_og_title = "Casira - Real Estate Agent in Costa Tropical, Spain"
     meta_og_type = "website"
-    meta_og_url = "https://tella.pages.dev"
-    meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
-    meta_og_description = "A Hugo Theme for OSSProject, Companies, Organization..."
-    meta_twitter_card = "summary_large_image"
-    meta_twitter_site = "@username"
-    meta_twitter_creator = "@username"
+    meta_og_url = "https://casria.es"
+    meta_og_image = "https://casria.es/img/logo/logo.svg"
+    meta_og_description = "Discover properties for sale and rent in Costa Tropical, Spain with Casira. Expert real estate services for buyers, sellers, and renters."
+    # meta_twitter_card = "summary_large_image"
+    # meta_twitter_site = "@casria_es"
+    # meta_twitter_creator = "@casria_es"
 
 [menu]
 
+  # [[menu.main]]
+  #   identifier = "properties"
+  #   name = "Properties"
+  #   url = "/properties/"
+  #   weight = 1
+
+  # [[menu.main]]
+  #   identifier = "buy_with_us"
+  #   name = "Buy with us"
+  #   url = "/buy_with_us/"
+  #   weight = 2
+
+  # [[menu.main]]
+  #   identifier = "sell_with_us"
+  #   name = "Sell with us"
+  #   url = "/sell_with_us/"
+  #   weight = 3
+  
+  # [[menu.main]]
+  #   identifier = "blog"
+  #   name = "Blog"
+  #   url = "/blog/"
+  #   weight = 4
+  
+  # [[menu.main]]
+  #   identifier = "about"
+  #   name = "About"
+  #   url = "/about/"
+  #   weight = 5
+  
   [[menu.main]]
-    identifier = "properties"
-    name = "Properties"
-    url = "/properties/"
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
     weight = 1
-
-  [[menu.main]]
-    identifier = "buy_with_us"
-    name = "Buy with us"
-    url = "/buy_with_us/"
-    weight = 2
-
-  [[menu.main]]
-    identifier = "sell_with_us"
-    name = "Sell with us"
-    url = "/sell_with_us/"
-    weight = 3
-  
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
-    weight = 4
-  
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 5
-
 
 
   # Footer Menu
@@ -89,11 +94,11 @@ enableRobotsTXT = true
     url = "/"
     weight = 1
   
-  [[menu.footer]]
-    identifier = "all_services"
-    name = "All Services"
-    url = "/all_services/"
-    weight = 2
+  # [[menu.footer]]
+  #   identifier = "all_services"
+  #   name = "All Services"
+  #   url = "/all_services/"
+  #   weight = 2
   
   [[menu.footer]]
     identifier = "contact"
@@ -101,8 +106,8 @@ enableRobotsTXT = true
     url = "/contact/"
     weight = 3
 
-  [[menu.footer]]
-    name = "Github"
-    url = "https://github.com/opera7133/tella"
-    pre = "<i class='icon-github text-2xl'></i>"
-    weight = 4
+  # [[menu.footer]]
+  #   name = "Github"
+  #   url = "https://github.com/opera7133/tella"
+  #   pre = "<i class='icon-github text-2xl'></i>"
+  #   weight = 4
